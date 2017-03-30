@@ -14,4 +14,4 @@ Or build on your OpenShift cluster
 
 ```shell
 $ oc process -f https://raw.githubusercontent.com/OutThereLabs/s2i-base-java8-centos7/master/template.yaml | oc create -f -
-``
+```
