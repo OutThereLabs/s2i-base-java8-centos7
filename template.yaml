@@ -16,7 +16,7 @@ objects:
         name: base-java8-centos7:latest
     source:
       git:
-        uri: git@github.com:OutThereLabs/s2i-base-java8-centos7.git
+        uri: https://github.com/OutThereLabs/s2i-base-java8-centos7.git
     strategy:
       type: Docker
     triggers:
